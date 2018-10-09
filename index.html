@@ -124,27 +124,30 @@
             .grid-img-container > div {
                 grid-column-start: 1;
                 grid-column-end: 5;
+            }
+        }
 
+        @media screen and (max-width: 700px) {
+            /* No hero image on mobile device*/
+            .hero-image {
+                background-image: none;
+                background-color: black;
             }
 
-            /* .img1 {
-            grid-column-start: 1;
-            grid-column-end: 5;
+            .main-container {
+                margin: 0 0;
             }
-            .img2 {
+            #hidePara {
+                display: none;
+            }
+            #showThis {
+                display: initial;
+            }
+
+            .grid-img-container > div {
                 grid-column-start: 1;
                 grid-column-end: 5;
             }
-            .img3 {
-                grid-column-start: 1;
-                grid-column-end: 5;
-            }
-            .img4 {
-                grid-column-start: 1;
-                grid-column-end: 5;
-            } */
-
-            
         }
 
 
