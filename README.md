@@ -2,4 +2,7 @@
 Responsive Design with Devon
 
 ## Live Link
-https://shantonwaldien.github.io/Responsive-Design-2.0/
+https://shantonwaldien.github.io/responsive-design-2.0/index.html
+
+### Contributors
+Shanton Waldien -2018
